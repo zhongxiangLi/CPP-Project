@@ -21,11 +21,15 @@ namespace sqlinfo {
 #make 
 
 #生成两个可执行文件main_DBPool  main_ThreadPool
+
 #./main_DBPool
+
 #main_DBPool 是刚开始测试数据库连接 以及一些增删改查操作的demo
 
 #./main_ThreadPool 2 2 1 1000
+
 #main_ThreadPool 后面4个参数 分别代表 线程数 连接数  是否使用连接池  插入数据数量
+
 使用连接池时，一般线程数和连接数保持一致；不用连接池时，代码中实现的是新建连接，此处参数用不到，1000 代表进行1000条数据插入。
 
 
