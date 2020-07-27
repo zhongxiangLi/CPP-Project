@@ -6,4 +6,7 @@ Reactor目录：
 
 HttpServer目录：
     基于Reactor实现的一个Http服务器，完成功能：接收到HTTP连接默认返回一个404页面，框架已成，可以修改添加其他页面
+    
+HttpClient目录：
+    基于TCP实现的Http客户端，运行后默认连接HttpServer目录下的http服务器，获取的输出信息是个404 html
 
