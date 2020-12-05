@@ -15,4 +15,7 @@ SkipListTimer目录：
     
 STL目录：
     对于STL内存池，二级内存配置的实现代码
+  
+MakeGuid.c:
+    游戏服务器生成唯一ID的源码+详细注释
 
